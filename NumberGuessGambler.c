@@ -31,7 +31,7 @@ int main(){
         }
         guesses++;
         if(guess != randomnum){
-            ("Enter Other Tukka:");
+            printf("Enter Other Tukka:");
             scanf("%d" ,&guess);
         }
 
