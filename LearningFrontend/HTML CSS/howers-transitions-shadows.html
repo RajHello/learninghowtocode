@@ -1,0 +1,103 @@
+<html> 
+
+    <head>
+        <title> 
+            Shadows,Howers and Transitions
+        </title>
+    </head>
+
+    <body>
+
+        <style>
+
+            .subscribe-button{
+
+                background-color:rgb(197, 12, 12);
+                color: white;
+                border: none;
+                height: 35px;
+                width: 105px;
+                border-radius:4px; 
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 0.3s;
+
+            }
+            
+            .subscribe-button:hover{
+                opacity: 0.6;
+            }
+
+            .subscribe-button:active{
+                opacity: 0.45;
+            }
+
+            .join{
+
+                background-color: white;
+                color: rgb(28, 46, 213);
+                height: 37px;
+                width: 77px;
+                border-color: rgb(28, 46, 213);
+                border-radius: 2px;
+                 margin-right: 8px;
+                 cursor: grab;
+                 transition: background-color 0.3s,
+                 color 0.3s;
+
+
+            }
+
+            .join:hover{
+
+                background-color:rgb(28, 46, 213) ;
+                color: white;
+
+            }
+            
+            .join:active{
+                opacity: 0.56;
+            }
+            .tweet{
+
+                background-color: rgba(29, 182, 253, 0.998);
+                color: white;
+                border: none;
+                height: 33px;
+                width: 67;
+                border-radius: 83px ;
+                font-style: oblique ;
+                font-size: 12px;
+                font-weight: bold;
+                cursor: cell;
+                
+                
+            }
+            .tweet:hover{
+                box-shadow:  12px 10px 10px rgba(0,0,0,0.5);
+                transition: box-shadow 0.3s;
+            }
+            .tweet:active{
+                box-shadow:  12px 10px 10px rgba(0,0,0,0.5);
+                transition: box-shadow 0.3s;
+            }
+
+        </style>
+        
+        <button class="subscribe-button">
+            SUBSCRIBE
+        </button>
+
+        <button class="join">
+            JOIN
+        </button>
+
+        <button class="tweet">
+               TWEET
+        </button>
+
+
+
+       
+    </body>
+</html
