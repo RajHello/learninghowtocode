@@ -1,0 +1,178 @@
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    background-color: #f5f5f5;
+    max-width: 300px;
+    width: 300px;
+    height: 600px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* adds scrollbar if content is too tall */
+    position: relative;
+    padding-bottom: 80px;
+    border-style:dashed;
+    border-color:#e6e5e5;
+    border-radius: 2px;
+    .container {
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    position: relative;
+    padding-bottom: 80px;
+    
+    
+}
+
+}
+
+.store-name {
+    text-align: center;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+    color: #616362;
+}
+
+.separator {
+    text-align: center;
+    letter-spacing: 2px; /* spaces out the asterisks */
+    color: #666;
+   
+}
+
+.reciept{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Consolas';
+    color: #736F7A;
+}
+
+.Task{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color: #3d413f;
+}
+#addBtn {
+    background: none;
+    border: none;
+    color: #999; /* faded grey */
+    font-size: 24px; /* bigger + symbol */
+    cursor: pointer;
+    align:left;
+    
+}
+.input-container {
+    
+    border: 1px solid #ccc;
+    border-radius: 10px; /* rounded corners */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    margin-bottom: 20px;
+    overflow: visible;
+    
+}
+
+#todoInput {
+    
+    border: none;
+    outline: none;
+   
+    padding: 10px;
+    width: 200px;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-family: 'Comic Sans', monospace;
+    box-shadow: 5px 5px 10px #aaaaaa; /* 10px right, 10px down, gray color */
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+}
+
+
+#todoInput:hover {
+    width: 250px; /* grows wider on hover */
+    box-shadow: 5px 5px 15px #888888; /* stronger shadow */
+}
+
+.bottom-separator {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #666;
+}
+
+#resetBtn {
+    position: absolute;
+    bottom: 20px; /* distance from bottom */
+    left: 50%;
+    transform: translateX(-50%); /* centers it */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+
+    font-size: 20px;
+    
+}
+
+#resetBtn:hover {
+     /* hide text */opacity: 50%;
+}
+
+
+#todoList{
+    text-align: left;
+    margin:0;
+    padding-left: 0;
+    list-style-type: square;
+}
+#todoList li {
+    padding: 10px 0; /* spacing between items */
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px dashed #ddd; /* optional separator line */
+}
+
+.todo-text {
+    flex: 1;
+    font-family: 'Courier New', monospace;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.delete-btn:hover {
+    color: #ff0000;
+}
