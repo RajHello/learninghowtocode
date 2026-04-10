@@ -1,0 +1,33 @@
+@font-face {
+    font-family: CoffeeInInitials;
+    src: url(extras/CoffeetinInitials-YXJ2.ttf);
+}
+body{
+    background-image: url(extras/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    font-family: CoffeeInInitials;
+    color: gold;
+    text-align: center;
+}
+
+.startgame {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+}
+.newcard {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    margin-top: 5px;
+}
